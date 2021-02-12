@@ -1,0 +1,105 @@
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+.form-control{
+    margin-left: 0;
+    width: 85%;
+}
+    .buton-form{
+        padding: 30px 7px;
+    }
+    .card-body a{
+
+    }
+    i.far.fa-file-alt{
+        color: white;
+        font-size: 25px;
+    }
+    i.fas.fa-phone-square-alt{
+        color: white;
+        font-size: 25px;
+    }
+    i.fas.fa-directions {
+        color: white;
+        font-size: 25px;
+    }
+    .icons-of-cont .title-con{
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 1.2px;
+        /* text-align: left; */
+        padding-left: 20px;
+        color: #f7f8f8;
+    }
+    .icons-of-cont{
+
+    }
+    .fa-heart{
+        padding-left: 54px;
+        margin-top: 41px;
+        color: #5a6268;
+    }
+
+
+}
+
+@media only screen
+and (max-width : 320px) {
+
+    .Sign-up a{
+        font-size: 17px;
+        font-weight: 600;
+        float: left;
+        margin-top: -51px;
+        margin-left: 28px;
+    }
+    .card-body a{
+        font-weight: 500;
+    }
+    .fa-heart{
+        padding-left: 70px;
+        margin-top: 26px;
+        color: #5a6268;
+    }
+    .get-quote .icons{
+
+    }
+    .buton-form{
+        padding: 3% 44% 0% 44%;
+        /* bottom: 0px; */
+        margin-left: 0;
+        float: none;
+        top: 7px;
+
+    }
+    .trt{
+        padding-top: 10px;
+    }
+    .form-control{
+        width: 290px;
+        height: 30px;
+        background-color: gray;
+        margin-left: 0;
+    }
+    .contactus{
+        padding-top: 1px;
+        margin-left: 0;
+    }
+    .phone-number{
+        padding-bottom: 10px;
+    }
+    .that-all-jazz{
+        padding-top: 10px;
+    }
+    .foolist{
+        float: right;
+        display: flex;
+    }
+    .for-colom{
+        padding-bottom: 15px;
+    }
+}

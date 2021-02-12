@@ -1,0 +1,718 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, menu, nav, output,
+ruby, section, summary,
+time, mark, audio, video, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    outline:none;
+    text-decoration: none !important;
+}
+button:focus,
+button:active,
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+* {
+
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<HEADER>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*.........................................................Nav-bar.......................................................*/
+header{
+    background-image: url("images/headerBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 201px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #ffffff;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #ffffff;
+}
+.fa-search{
+    color: #ffffff;
+    padding-left: 10px;
+}
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+/*.........................................................head-txt.......................................................*/
+.head-txt{
+    text-align: center;
+}
+.divider{
+    width: 17%;
+    height: 3px;
+   margin: 0 auto;
+    background-color: #f7f7f7;
+}
+.head-txt h1{
+    padding-bottom: 24px;
+    padding-top: 227px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+}
+.head-txt p{
+    padding-top: 32px;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 35px;
+
+}
+.head-txt a{
+    font-weight: 500;
+    color: #ffffff;
+    opacity: 1;
+    border: solid 1px #ffffff;
+    background-color: #000000;
+    padding-bottom: 14px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+.second-section{
+    background-color: #f7f7f7;
+}
+.doc-pho-dic{
+    position: relative;
+    bottom: 62px;
+    background-color: #000000;
+}
+i.far.fa-file-alt{
+color: white;
+font-size: 34px;
+}
+i.fas.fa-phone-square-alt{
+color: white;
+font-size: 34px;
+}
+i.fas.fa-directions {
+color: white;
+font-size: 34px;
+}
+.icons-of-cont{
+    justify-content: center;
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 34px;
+}
+.icons-of-cont .title-con{
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    /* text-align: left; */
+    padding-left: 20px;
+    color: #f7f8f8;
+}
+.icons-of-cont .icons{
+    padding-left: 20px;
+}
+.stright-lane{
+    color: white;
+}
+/*.contact .contact-container{*/
+ /*position: relative;*/
+    /*bottom: 62px;*/
+    /*background-color: #000000;*/
+/*}*/
+/*i.far.fa-file-alt{*/
+    /*color: white;*/
+    /*font-size: 34px;*/
+    /*margin-top: 35px;*/
+/*}*/
+
+/*.get-quote{*/
+    /*text-align: center;*/
+    /*display: flex;*/
+/*}*/
+/*.get-quote .fb-img{*/
+    /*padding-left: 35px;*/
+/*}*/
+/*.get-quote img{*/
+    /*padding-top: 35px;*/
+    /*padding-bottom: 35px;*/
+/*}*/
+/*.get-quote .icons{*/
+    /*padding-top: 20px;*/
+    /*padding-left: 20px;*/
+/*}*/
+/*p.lane{*/
+    /*margin-left: 51px;*/
+/*}*/
+/*.get-quote p{*/
+    /*padding-top: 47px;*/
+    /*padding-bottom: 47px;*/
+    /*padding-left: 21px;*/
+    /*font-size: 17px;*/
+    /*font-weight: 500;*/
+    /*font-style: normal;*/
+    /*line-height: 1.5;*/
+    /*letter-spacing: 1.2px;*/
+    /*text-align: left;*/
+    /*color: #f7f8f8;*/
+/*}*/
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,UPDATES>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.*/
+
+.updates{
+    font-family: 'Playfair Display', serif;
+    font-size: 29px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000000;
+    padding-top: 0px;
+}
+
+
+.card-body .card-title{
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.72px;
+    text-align: left;
+    color: #444444;
+}
+.card-body p{
+    padding-top: 29px;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #444444;
+}
+.card-body .card-text{
+    padding-top: 26px;
+    font-size: 14px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #777777;
+}
+.card-body a{
+    margin-top: 26px;
+    font-weight: 500;
+    color: #ffffff;
+    opacity: 1;
+    background-color: #000000;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-left: 29px;
+    padding-right: 29px;
+    border-radius: 0px;
+}
+.card-img-top{
+    width: 374px;
+    height: 212px;
+}
+.cards-section{
+    padding-top: 49px;
+    padding-bottom: 65px;
+}
+.read{
+    display: flex;
+}
+.fa-heart{
+    padding-left: 144px;
+    margin-top: 41px;
+    color: #5a6268;
+}
+.sign{
+    text-align: center;
+    padding-bottom: 56px;
+}
+.sign a{
+    /*width: 71px;*/
+    /*height: 13px;*/
+    padding: 12px 64px 12px 63px;
+    border: solid 3px #000000;
+    background-color: #f7f7f7;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.59;
+    letter-spacing: 1.02px;
+    text-align: center;
+    color: #010101;
+    text-transform: uppercase;
+    margin-bottom: 56px;
+}
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+
+
+
+.gallery-txt{
+    font-family: 'Playfair Display', serif;
+    font-size: 29px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: 1.18px;
+    text-align: center;
+    color: #000000;
+    padding-top: 80px;
+}
+/*.port-image*/
+/*{*/
+    /*width: 100%;*/
+/*}*/
+
+/*.gallery_product*/
+/*{*/
+    /*margin-bottom: 5px;*/
+/*}*/
+.view-all{
+    text-align: center;
+    padding-top: 59px;
+    padding-bottom: 56px;
+}
+.view-all a{
+    padding: 12px 64px 12px 63px;
+    border: solid 3px #000000;
+    background-color: #f7f7f7;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.59;
+    letter-spacing: 1.02px;
+    text-align: center;
+    color: #010101;
+    text-transform: uppercase;
+    margin-bottom: 56px;
+}
+.imagesGallery{
+    padding-top: 68px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.imgeglry{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+.content-of-testimonial{
+    padding-top: 25px;
+}
+
+.Testimionals-Section{
+    background-color: #f7f7f7;
+    padding-bottom: 80px;
+}
+
+
+.test{
+    padding-top: 69px;
+    text-align: center;
+}
+.test p{
+    font-family: 'Playfair Display', serif;
+    font-size: 29.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: 1.18px;
+
+    color: #000000;
+}
+.starts{
+    padding-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+.fa-star{
+    color: orange;
+}
+
+
+.ArleneS{
+    padding-top: 36px;
+    text-align: center;
+}
+.ArleneS p{
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: 0.56px;
+    color: #000000;
+}
+.testi-text{
+    border: solid 1px #cccccc;
+    background-color: #f7f7f7;
+    padding: 50px 50px;
+    font-size: 14px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: 0.56px;
+    text-align: left;
+    color: #5b5b5b;
+}
+.carousel-control-next .carousel-control-next-icon{
+    border: 1px solid lightslategray;
+    border-radius: 20px;
+    padding: 20px 20px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+}
+.carousel-control-prev .carousel-control-prev-icon{
+    border: 1px solid lightslategray;
+    border-radius: 20px;
+    padding: 20px 20px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+}
+
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+.Why-are-we-here{
+    background-color: #f7f7f7;
+}
+.why{
+    padding-top: 82px;
+    font-family: 'Playfair Display', serif;
+    font-size: 29.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: 1.18px;
+    text-align: center;
+    color: #000000;
+}
+.whypara{
+    padding-bottom: 98px;
+    padding-top: 73px;
+    font-size: 16px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.19;
+    letter-spacing: 0.64px;
+    text-align: left;
+    color: #666666;
+}
+
+
+.the-standard-chunks{
+    background-color: #000000;
+}
+.standard{
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+.standard p{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: normal;
+    color: #ffffff;
+}
+.standard span{
+
+
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.Sign-up{
+    padding-top: 56px;
+    padding-bottom: 47px;
+    text-align: right;
+
+}
+.Sign-up a{
+    padding: 9px 26px 9px 26px;
+    border: solid 3px #ffffff;
+    background-color: #000000;
+    font-size: 17px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.51px;
+    text-align: left;
+    color: #ffffff;
+}
+/*.We-offer{*/
+    /*!*padding-left: 43%;*!*/
+    /*font-family: 'Playfair Display', serif;*/
+    /*font-size: 19px;*/
+    /*font-weight: bold;*/
+    /*font-stretch: normal;*/
+    /*font-style: normal;*/
+    /*line-height: 1.79;*/
+    /*letter-spacing: 0.94px;*/
+    /*text-align: left;*/
+    /*color: #000000;*/
+/*}*/
+/*.We-offer-txt,.We-offer-txt2{*/
+    /*font-size: 17px;*/
+    /*font-weight: normal;*/
+    /*font-stretch: normal;*/
+    /*font-style: normal;*/
+    /*line-height: 2.06;*/
+    /*letter-spacing: 1.02px;*/
+    /*text-align: left;*/
+    /*color: #444444;*/
+/*}*/
+/*.We-offer-txt2{*/
+    /*padding-left: 80px;*/
+
+/*}*/
+/*.offrs{*/
+    /*padding-top: 98px;*/
+    /*width: 853px;*/
+    /*height: 397px;*/
+/*}*/
+/*.offers{*/
+    /*display: flex;*/
+/*}*/
+/*!*.offer0img{*!*/
+    /*!*text-align: right;*!*/
+
+/*!*}*!*/
+/*!*.imgoffer{*!*/
+    /*!*width: 853px;*!*/
+    /*!*height: 397px;*!*/
+/*!*}*!*/
+/*.col-bground{*/
+    /*background-image: url("images/colbg.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: right;*/
+    /*background-size: contain;*/
+    /*width: 100%;*/
+/*}*/
+.chunk2{
+    background-image: url("images/colbg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.chunk2 p{
+    padding-top: 53px;
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #000000;
+}
+.chunk2 h4{
+    font-size: 17px;
+    font-weight: normal;
+    color: #444444;
+    padding-top: 42px;
+}
+.chunk2 h5{
+    font-size: 17px;
+    font-weight: normal;
+    color: #444444;
+    padding-top: 42px;
+}
+.chunk2 h6{
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: #000000;
+    padding-bottom: 35px;
+}
+
+
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+
+
+
+
+
+.that-all-jazz {
+    padding-top: 66px;
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.84px;
+    text-align: left;
+    color: #000000;
+}
+.trt{
+    padding-top: 35px;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: 0.56px;
+    text-align: left;
+    color: #636363;
+}
+.phone-number{
+    padding-bottom: 90px;
+    padding-top: 13px;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: 0.56px;
+    text-align: left;
+    color: #636363;
+}
+.contactus{
+    padding-top: 66px;
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.84px;
+    /* text-align: left; */
+    margin-left: 26%;
+    color: #000000;
+}
+.buton-form{
+    /* width: 71px; */
+    height: 100px;
+    background-color: #000000;
+    padding: 38px 7px;
+    display: inline;
+    /* margin-top: -30px; */
+    position: relative;
+    bottom: 100px;
+    float: right;
+    margin-left: 66%;
+}
+.fa-telegram-plane:before{
+    color: white;
+    font-size: 34px;
+}
+.form-control{
+    width: 353px;
+    height: 30px;
+    background-color: gray;
+    /* right: 11px; */
+    margin-left: 26%;
+    /* margin-right: 12px; */
+    /* float: right; */
+    width: 350px;
+    height: 30px;
+    background-color: gray;
+}
+#name{
+     margin-top: 16px;
+ }
+#email{
+    margin-top: 5px;
+}
+#address{
+    margin-top: 5px;
+}
+::-webkit-input-placeholder{
+    color: #ffffff !important;
+    padding-left: 20px;
+    font-style: italic ;
+}
+
+.copyright{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #000000;
+    font-size: 12px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #ffffff;
+}
+.foolist{
+    float: right;
+    display: flex;
+}
+.txtfootr{
+    padding-left: 10px;
+}
+li{
+    list-style: none;
+}
